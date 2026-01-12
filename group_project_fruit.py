@@ -193,7 +193,7 @@ elif st.session_state.page == "classify":
                 predicted_class = CLASS_NAMES[top_idx]
                 fruit, grade, desc = get_fruit_info(predicted_class)
             
-            st.subheader("🤖🍎 Ripeness Grade")
+            st.subheader("📸 Ripeness Grade")
             
             if fruit == "Banana":
                 cols = st.columns(3)
